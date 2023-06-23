@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="AddressList2.0:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/AddressList2_0_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="AddressList2.0/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AddressList2.0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

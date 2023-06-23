@@ -1,0 +1,83 @@
+
+/* 整个body美化 */
+body{
+    font-size: 18px;
+    font-family: "微软雅黑 Light";
+    background-color: lightslategrey;
+}
+
+/*表格样式*/
+table {
+    width: 70%;
+    background: #ccc;
+    margin: 10px auto;
+    border-collapse: collapse;/*border-collapse:collapse合并内外边距(去除表格单元格默认的2个像素内外边距*/
+}
+th,td {
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+th {
+    background: #eee;
+    font-weight: normal;
+}
+/* 表行 */
+tr {
+    background: #fff;
+}
+tr:hover {
+    background: #789;
+}
+/*td a {*/
+/*    font-family: KaiTi;*/
+/*    color: #06f;*/
+/*    text-decoration: none;*/
+/*}*/
+/*td a:hover {*/
+/*    font-family: KaiTi;*/
+/*    color: #06f;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/* 按钮 */
+input[type=button]:hover{/*鼠标移动时的颜色变化*/
+    background-color: antiquewhite;
+}
+input[type=button]{
+    color:white;/*字体颜色*/
+    background-color: brown;/*按钮背景颜色*/
+    border-radius: 3px;/*让按钮变得圆滑一点*/
+    margin: 0;
+    outline: none;/*取消轮廓*/
+    font-family: KaiTi;/*字体设置为楷体*/
+    text-align: center;/*字体居中*/
+    cursor: pointer;/*设置鼠标箭头手势*/
+
+    font-size: 14px;
+    width: 70px;
+    height: 22px;
+}
+input[type=text]{
+    border-radius: 3px; /*让框变得圆滑一点*/
+    border-color: grey;
+}
+
+input[type=submit]:hover{/*鼠标移动时的颜色变化*/
+    background-color: antiquewhite;
+}
+input[type=submit]{
+    color:white;/*字体颜色*/
+    background-color: #06f;/*按钮背景颜色*/
+    border-radius: 3px;/*让按钮变得圆滑一点*/
+    margin: 0;
+    outline: none;/*取消轮廓*/
+    font-family: KaiTi;/*字体设置为楷体*/
+    text-align: center;/*字体居中*/
+    cursor: pointer;/*设置鼠标箭头手势*/
+
+    font-size: 14px;
+    width: 70px;
+    height: 22px;
+}
